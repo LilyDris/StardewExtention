@@ -1,0 +1,18 @@
+header {
+    background-color: #03A007;
+    text-align: center;
+    border-color: #007448;
+    box-shadow: 0px 1px rgba(0,0,0,0.3);
+    color: white;
+    text-shadow: 0px 2px #00321f;
+}
+
+body {
+    border: 1px solid #A7D7F9;
+    margin-right: 15px;
+    background-color: rgba(209,248,255,0.67);
+    min-height: 500px;
+    margin-bottom: 60px;
+    border-image: url(menu_border.png) 15 stretch;
+    border-width: 15px;
+}

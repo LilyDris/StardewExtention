@@ -1,13 +1,27 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Stardew Extension",
   "version": "1.0",
-  "description": "A Chrome extension for Stardew Valley fans.",
-  "permissions": [
-    "tabs"
-  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "Animals_Icon.png"
+  },
+  "icons": {
+    "16": "Animals_Icon.png",
+    "32": "Animals_Icon.png",
+    "48": "Animals_Icon.png",
+    "128": "Animals_Icon.png"
+  },
   "browser_action": {
-    "default_title": "Stardew Extension",
-    "default_popup": "popup.html"
+    "default_icon": {
+      "16": "Animals_Icon.png",
+      "32": "Animals_Icon.png",
+      "48": "Animals_Icon.png"
+    }
+  },
+    "description": "A Chrome extension for Stardew Valley fans.",
+    "permissions": [
+      "tabs"
+    ]
+
   }
-}
