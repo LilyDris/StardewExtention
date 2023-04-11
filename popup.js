@@ -3,6 +3,7 @@ checkboxes.forEach((checkbox) => {
     checkbox.addEventListener("click", handleCheckboxClick);
 });
 
+
 document.addEventListener('DOMContentLoaded', function () {
     const toggleBtn = document.getElementById('toggle-btn');
     const tableBody = document.getElementById('table-body');

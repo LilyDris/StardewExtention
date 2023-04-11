@@ -70,3 +70,9 @@ th {
 .strikethrough td {
     text-decoration: line-through;
 }
+.hidden {
+    display: none;
+}
+.collapsible.hidden {
+    display: none;
+}
