@@ -4,19 +4,19 @@
   "version": "1.0",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "Animals_Icon.png"
+    "default_icon": "images/Animals_Icon.png"
   },
   "icons": {
-    "16": "Animals_Icon.png",
-    "32": "Animals_Icon.png",
-    "48": "Animals_Icon.png",
-    "128": "Animals_Icon.png"
+    "16": "images/Animals_Icon.png",
+    "32": "images/Animals_Icon.png",
+    "48": "images/Animals_Icon.png",
+    "128": "images/Animals_Icon.png"
   },
   "browser_action": {
     "default_icon": {
-      "16": "Animals_Icon.png",
-      "32": "Animals_Icon.png",
-      "48": "Animals_Icon.png"
+      "16": "images/Animals_Icon.png",
+      "32": "images/Animals_Icon.png",
+      "48": "images/Animals_Icon.png"
     }
   },
     "description": "A Chrome extension for Stardew Valley fans.",

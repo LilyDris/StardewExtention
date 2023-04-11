@@ -8,11 +8,65 @@ header {
 }
 
 body {
-    border: 1px solid #A7D7F9;
+    border-image: url(images/menu_border.png) 15 stretch;
+    border-width: 15px;
+    background: url(images/stardewbackground.png);
+}
+
+.inner-body {
+    border:1px;
+    border-image: url(images/menu_border.png) 15 stretch;
+    border-width: thick;
     margin-right: 15px;
     background-color: rgba(209,248,255,0.67);
     min-height: 500px;
     margin-bottom: 60px;
-    border-image: url(menu_border.png) 15 stretch;
-    border-width: 15px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    padding: 0.2em;
+    background-color: rgba(255,255,255,0.58);
+    color: #202122;
+    border: 1px solid #a2a9b1;
+    height: 100%;
+    vertical-align: top;
+    width:80%;
+}
+
+th {
+    background-color: #E68A00;
+    text-align: center;
+    border-color: #007448;
+    box-shadow: 0px 1px rgba(0,0,0,0.3);
+    color: white;
+    text-shadow: 0px 2px #00321f;
+}
+
+.table-label {
+    background-color: #FFDB4D;
+    box-shadow: 0px 1px rgba(0,0,0,0.3);
+    color: black;
+    text-shadow:none;
+    font: bold
+}
+
+/* Style for the toggle button */
+.toggle-button {
+    float: right;
+    background-color: #f0f0f0;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the hidden table rows */
+.table-body{
+    display: table;
+}
+.strikethrough td {
+    text-decoration: line-through;
 }
